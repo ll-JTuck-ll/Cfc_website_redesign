@@ -1,0 +1,54 @@
+
+.nav {
+	padding: 20px 10px;
+	height: auto;
+	font-family: "Raleway", sans-serif;
+}
+
+.nav li {
+	list-style: none;
+	display:inline;
+	padding: 5px;
+}
+
+.pull-left {
+	padding: 10px;
+}
+
+.nav-link a:hover {
+	color: #020113;
+	padding-bottom: 10xp;
+	text-tansform: none;
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+}
+
+
+.nav-link a {
+	color: #020113;
+	font-size: 12pt;
+	letter-spacing: 1.5px;
+	white-space: nowrap;
+
+}
+
+.nav-login {
+	color: #020113;
+	letter-spacing: 2px;
+}
+
+.nav-login button {
+	letter-spacing: 2px;
+	color: #020113;
+	border: #020113 solid 2px;
+	padding: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	background: none;
+}
+
+.nav-login button:hover {
+	color:white;
+	background: #020113;
+}

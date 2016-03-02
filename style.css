@@ -1,0 +1,176 @@
+body{
+	font-family: "Raleway", sans-serif;
+	font-size: 14pt;
+}
+
+h1 {
+	font-size: 48pt;
+}
+
+h2{
+	font-size: 36pt;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.jumbotron {
+	height: 500px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.splash {
+	margin: 0 auto;
+	background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) ), url('./Charlotte_skyline_dec2011_med-res-1.jpg');
+	background-size: cover;
+}
+
+.splash h1 {
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+.button {
+	margin: 0 auto;
+}
+
+.splash button {
+	font-size: 24pt;
+	text-align: center;
+	white-space: nowrap;
+	letter-spacing: 2px;
+	color: white;
+	background: #FF4D57;
+	padding: 5px;
+	padding-right: 2em;
+	padding-left: 2em;
+	border: none;
+	position: relative;
+	
+}
+
+
+.quote {
+	display: block;
+	background-color: white;
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.quote-svg {
+	height: 40pt;
+	width: 40pt;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+
+.info {
+	background-color: #4591B5;
+	text-align: center;
+	height:100%; 
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.info h2, p{
+	color: #ffffff;
+}
+
+.info p {
+	font-size: 24pt;
+}
+
+.out-splash {
+	margin: auto;
+	background-image: linear-gradient( rgba(69, 145, 181, .5), rgba(69, 145, 181, .5) ), url('./Charlotte_skyline_dec2011_med-res-1.jpg');
+	background-size: cover;
+}
+
+/* Join up */
+
+.join-up {
+	display: inline-block;
+	padding: 1.5em;
+	background : #325768;
+ 	border-radius : 5px;
+ 	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+}
+
+.join-up p {
+	display: inline;
+	margin: auto;
+	text-align: center;
+}
+
+.join-up input {
+	width: 30em;
+	border-radius: 0;
+}
+
+.join-up button {
+	text-align: center;
+	white-space: nowrap;
+	letter-spacing: 2px;
+	color: white;
+	background: #FF4D57;
+	padding: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border: none;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*footer style*/
+
+footer {
+	background-color: #AFB0B2;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+#footer-content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline;
+	text-align: center;
+}
+
+#footer-content p{
+	color: #ffffff;
+	font-size: 12pt;
+	letter-spacing: 1.5px;
+	white-space: nowrap;
+}
+
+#footer-content a {
+	color: #ffffff;
+	font-size: 12pt;
+	letter-spacing: 1.5px;
+	white-space: nowrap;
+}
+
+#footer-content a:hover {
+	color: #ffffff;
+	padding-bottom: 10px;
+	text-tansform: none;
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+}
