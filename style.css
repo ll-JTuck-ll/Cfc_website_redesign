@@ -101,6 +101,7 @@ h2{
 /* Join up */
 
 .join-up {
+	margin-top: 8.5em;
 	display: inline-block;
 	padding: 1.5em;
 	background : #325768;
@@ -110,17 +111,20 @@ h2{
 }
 
 .join-up p {
-	display: inline;
-	margin: auto;
+	float: left;
 	text-align: center;
+	padding-right: 10px;
 }
 
 .join-up input {
-	width: 30em;
+	width: 20em;
 	border-radius: 0;
+	border: 0;
+	padding: 0;
 }
 
 .join-up button {
+	float: right;
 	text-align: center;
 	white-space: nowrap;
 	letter-spacing: 2px;
@@ -130,9 +134,6 @@ h2{
 	padding-right: 25px;
 	padding-left: 25px;
 	border: none;
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 
